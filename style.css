@@ -35,6 +35,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
+    border-bottom: 4px solid rgb(78 174 203);
 }
 
 .logo {
@@ -106,6 +107,7 @@ body {
 .h-b {
     height: 400px;
     margin-bottom: 20px;
+    border-bottom: 4px solid rgb(78 174 203);
 }
 
 .h-b-con {
@@ -152,9 +154,13 @@ body {
     box-shadow: 0px 0px 4px 3px lightgray;
 }
 
+
+/* .container {
+    border-bottom: 4px solid rgb(78 174 203);
+} */
+
 .m-cont {
     width: 100%;
-    margin-bottom: 40px;
 }
 
 .calender-ramadan {
@@ -235,4 +241,43 @@ td {
     width: 95%;
     height: 90%;
     margin-top: 5px;
+}
+
+.footer {
+    width: 100%;
+    border-bottom: 8px solid rgb(57, 142, 202);
+}
+
+.footer-con {
+    width: 90%;
+    margin: 15pxx auto;
+}
+
+.container-main {
+    width: 100%;
+    border-top: 8px solid rgb(57, 142, 202);
+}
+
+.image-gallary {
+    text-align: center;
+    font-size: 35px;
+}
+
+.ifter-image {
+    height: 250px;
+    width: 500px;
+    border: 2px solid rgb(57, 142, 202);
+}
+
+.image-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-div img {
+    height: 150px;
+    width: 200px;
 }
