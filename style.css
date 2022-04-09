@@ -198,3 +198,41 @@ td {
 .najat {
     background-color: rgba(198, 73, 146, 0.838);
 }
+
+.other-jila-time,
+.notics {
+    width: 90%;
+    /* background-color: blue; */
+    margin: auto;
+}
+
+.common-jill {
+    text-align: center;
+    border: 1px dotted olive;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.other-jila {
+    border: 1px dotted olive;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.notics {
+    text-align: center;
+    background-color: #9BBB59;
+    height: 100px;
+    width: 90%;
+}
+
+.notics img {
+    width: 95%;
+    height: 90%;
+    margin-top: 5px;
+}
